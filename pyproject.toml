@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "Data_science_olympics"
+version = "0.1.0"
+description = "Data_science_olympics"
+authors = ["Dreamquark"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pandas = "^0.24.2"
+pandas-profiling = "^2.0"
+sklearn = "^0.0.0"
+nltk = "^3.4"
+category-encoders = "^2.0"
+lightgbm = "^2.2"
+matplotlib = "^3.1"
+requests = "^2.22"
+tqdm = "^4.32"
+
+[tool.poetry.dev-dependencies]
+jupyter = "1.0.0"
+jupytext = "1.0.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
